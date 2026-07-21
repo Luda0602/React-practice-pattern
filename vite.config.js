@@ -6,7 +6,7 @@ import babel from '@rolldown/plugin-babel'
 export default defineConfig({
   plugins: [
     react(),
-    base: "/React-practice-pattern/",
+  base: "/React-practice-pattern/",
     babel({ presets: [reactCompilerPreset()] })
   ],
 })
