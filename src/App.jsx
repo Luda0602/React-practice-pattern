@@ -73,9 +73,9 @@
 // }
 
 // export default App;
-import "./App.css";
-import UpdateItems from "./components/UpdateItems";
+import "./Cinema.css";
+import Cinema from "./components/Cinema";
 function App() {
-  return <UpdateItems />;
+  return <Cinema />;
 }
 export default App;
