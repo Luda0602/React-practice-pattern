@@ -73,9 +73,13 @@
 // }
 
 // export default App;
-import "./Cinema.css";
-import Cinema from "./components/Cinema";
+
+import ProfileCard from "./components/ProfileCard";
 function App() {
-  return <Cinema />;
+  return (
+    <>
+      <ProfileCard name="Люда" job="Frontend student" />;
+    </>
+  );
 }
 export default App;
