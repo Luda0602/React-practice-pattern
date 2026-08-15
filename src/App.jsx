@@ -74,11 +74,11 @@
 
 // export default App;
 
-import ProfileCard from "./components/ProfileCard";
+import Shop from "./components/Shop";
 function App() {
   return (
     <>
-      <ProfileCard name="Люда" job="Frontend student" />;
+      <Shop />;
     </>
   );
 }
